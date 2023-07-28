@@ -2,7 +2,6 @@ import React from 'react'
 import {View, Image, StyleSheet, Text,SafeAreaView, TouchableOpacity} from 'react-native'
 import Alessia from './page/Koala';
 
-
 const App = ({navigation, route}) => {
   return(
     <SafeAreaView style={style.contenitore}>
