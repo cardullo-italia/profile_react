@@ -31,7 +31,7 @@ const App = ({navigation, route}) => {
         <View style={{top:140,left:20, width:150, height:200, backgroundColor:'white', borderRadius:10, borderWidth:3 , borderColor:'darkgray'}}>
           <View  style={{alignItems:'center' , top:10}}>
             <Image  style={{width:80, height:80 , borderRadius:360}} source={require('../profile/Image/fotoUtente_1.jpeg')}/>
-            <Text style={{marginTop:10}}>Alessia Cardullo</Text>
+            <Text style={{marginTop:10}}>Met</Text>
             <Text>Sono un koala</Text>
             <TouchableOpacity
             style={{ top:10, backgroundColor:'#1B6725', width:100, height:40, borderRadius:15 , alignItems:'center' , justifyContent:'center'}}
@@ -43,7 +43,7 @@ const App = ({navigation, route}) => {
         <View style={{ left:220, top: -60, width:150, height:200, backgroundColor:'white', borderRadius:10, borderWidth:3 , borderColor:'darkgray'}}>
           <View  style={{alignItems:'center' , top:10}}>
             <Image  style={{width:80, height:80 , borderRadius:360}} source={require('../profile/Image/fotoUtente_2.jpeg')}/>
-            <Text style={{marginTop:10}}>Carmelo Cardullo</Text>
+            <Text style={{marginTop:10}}>Honey</Text>
             <Text>Sono un alieno</Text>
             <TouchableOpacity
             style={{ top:10, backgroundColor:'#1B6725', width:100, height:40, borderRadius:15 , alignItems:'center' , justifyContent:'center'}}
