@@ -1,6 +1,6 @@
 import React from 'react'
 import {View, Image, StyleSheet, Text,SafeAreaView, TouchableOpacity} from 'react-native'
-import Alessia from './page/Koala';
+
 
 const App = ({navigation, route}) => {
   return(
@@ -43,7 +43,7 @@ const App = ({navigation, route}) => {
         <View style={{ left:220, top: -60, width:150, height:200, backgroundColor:'white', borderRadius:10, borderWidth:3 , borderColor:'darkgray'}}>
           <View  style={{alignItems:'center' , top:10}}>
             <Image  style={{width:80, height:80 , borderRadius:360}} source={require('../profile/Image/fotoUtente_2.jpeg')}/>
-            <Text style={{marginTop:10}}>Honey</Text>
+            <Text style={{marginTop:10}}>Honey Monster</Text>
             <Text>Sono un alieno</Text>
             <TouchableOpacity
             style={{ top:10, backgroundColor:'#1B6725', width:100, height:40, borderRadius:15 , alignItems:'center' , justifyContent:'center'}}
